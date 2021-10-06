@@ -113,6 +113,7 @@ body{
     justify-content: space-between;
     padding: 0 10px;
     border-bottom: 1px solid var(--grey);
+    font-family: var(--font-poppins);
 }
 .toggle{
     width: 60px;
@@ -123,12 +124,18 @@ body{
     font-size: 2.5em;
     position: relative;
     cursor: pointer;
+    
 }
 .user ion-icon{
     width: 30px;
     height: 30px;
     color: var(--maroon);
     font-size: 1.5em;
+    cursor: pointer;
+    
+}
+
+.user h6{
     cursor: pointer;
 }
 
