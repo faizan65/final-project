@@ -97,6 +97,7 @@ body{
     min-height: 100vh;
     transition: 0.5s ease;
     background: var(--white);
+    padding: 0 40px;
 }
 
 .main.active{
@@ -204,6 +205,7 @@ pending-task .btn-theme1{
 
 #pending-task .card {
     border-radius: 25px;
+    padding: 25px;
     
 }
 
@@ -242,13 +244,17 @@ pending-task .btn-theme1{
 #pending-task  h6{
     font-weight: bold;}
 
-#pending-task.progress {
-    height: 10px;
+#pending-task .progress {
+    height: 5px;
     border-radius: 10px
 }
 
+#pending-task .progress .progress-bar{
+    height: 5px;
+}
+
 #pending-task .progress div {
-    background-color: red
+    background-color: var(--maroon)
 }
 
 #pending-task .text1 {
